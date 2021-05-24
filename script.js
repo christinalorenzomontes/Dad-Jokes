@@ -5,6 +5,7 @@ jokeBtn.addEventListener('click', generateJoke);
 
 generateJoke();
 
+// USING async/await
 async function generateJoke() {
     const config = {
         headers: {
@@ -20,6 +21,7 @@ async function generateJoke() {
         
 }
 
+// USING .then()
 // function generateJoke() {
 //     const config = {
 //         headers: {
